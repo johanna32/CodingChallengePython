@@ -79,7 +79,7 @@ extent2 = image1_data.GetExtent()
 camera2 = background_renderer.GetActiveCamera()
 camera2.ParallelProjectionOn()
 
-ren2.SetViewport(0.5, 0.0, 1.0, 1.0)
+filtered_renderer.SetViewport(0.5, 0.0, 1.0, 1.0)
 # Create the render window which will show up on the screen.
 # We put our renderer into the render window using AddRenderer. We also
 # set the size to be 300 pixels by 300.
