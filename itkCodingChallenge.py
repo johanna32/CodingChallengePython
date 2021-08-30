@@ -73,11 +73,11 @@ filtered_renderer.SetViewport(0.5, 0.0, 1.0, 1.0)
 # Render once to figure out where the background camera will be
 render_window.Render()
 # Set up the background camera to fill the renderer with the image
-origin1 = image1_data.GetOrigin()
-spacing1 = image1_data.GetSpacing()
-extent1 = image1_data.GetExtent()
-camera1 = background_renderer.GetActiveCamera()
-camera1.ParallelProjectionOn()
+origin2 = image1_data.GetOrigin()
+spacing2 = image1_data.GetSpacing()
+extent2 = image1_data.GetExtent()
+camera2 = background_renderer.GetActiveCamera()
+camera2.ParallelProjectionOn()
 
 ren2.SetViewport(0.5, 0.0, 1.0, 1.0)
 # Create the render window which will show up on the screen.
